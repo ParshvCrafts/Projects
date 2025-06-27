@@ -21,18 +21,18 @@ def calculation():
         n2=float(input("Enter the second number:"))
 
      
-        x=int(input('''For addition, type 1
+        operation=int(input('''For addition, type 1
 For subtraction, type 2
 For multiplication, type 3
 For division, type 4: '''))
 
-        if x==1:
+        if operation==1:
           print(f"Answer: {n1} + {n2} =",n1+n2)
-        elif x==2:
+        elif operation==2:
           print(f"Answer: {n1} - {n2} =",n1-n2)
-        elif x==3:
+        elif operation==3:
           print(f"Answer: {n1} x {n2} =",n1*n2)
-        elif x==4:
+        elif operation==4:
           print(f"Answer: {n1} / {n2} =",n1/n2)
         else:
           print("invalid syntax")
