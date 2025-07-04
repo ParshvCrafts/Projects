@@ -19,7 +19,7 @@ BUILT_IN: Dict[str, List[str]] = {
 }
 
 # default external list path (change if you like)
-DEFAULT_EXTRA_PATH = Path(r"C:\Users\p1a2r\OneDrive\Desktop\Git Hub Projects\hangman_words.txt")
+DEFAULT_EXTRA_PATH = Path(r"hangman_words.txt")
 
 def ask_source() -> str:
     """Return 'BUILTIN' or absolute path to custom list (guaranteed to exist)."""
