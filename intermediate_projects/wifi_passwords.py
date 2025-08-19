@@ -22,7 +22,7 @@ def display_passwords(passwords):
         print(f'Password: {password}\n')
 
 def save_to_file(passwords, filename="wifi_passwords.txt"):
-    with open(r"C:\Users\p1a2r\OneDrive\Desktop\Git Hub Projects" + filename, 'w') as f:
+    with open(r"XXX" + filename, 'w') as f:
         for profile, password in passwords:
             f.write(f'Profile Name: {profile}\n')
             f.write(f'Password: {password}\n\n')
@@ -52,4 +52,5 @@ def main():
         save_to_file(passwords)
 
 if __name__ == "__main__":
+
     main()
